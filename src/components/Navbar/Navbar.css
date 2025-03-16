@@ -1,3 +1,27 @@
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba( 44, 44, 44, 0.7);
+    z-index: 999;
+}
+
+.loader-icon{
+    font-size: 80px;
+    color: #d2042d;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,12 +56,11 @@
 
 .search-btn {
     background-color: #d2042d;
-    color: #000;
+    color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 0 20px 20px 0;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .icons {
