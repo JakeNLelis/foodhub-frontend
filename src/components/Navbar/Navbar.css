@@ -84,6 +84,7 @@
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: none;
+    z-index: 2;
 }
 
 .profile-group:hover .dropdown-menu {
