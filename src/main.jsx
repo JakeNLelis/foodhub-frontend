@@ -5,9 +5,9 @@ import { BrowserRouter } from "react-router-dom";
 import FoodContextProvider from "./context/FoodContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <FoodContextProvider>
-    <BrowserRouter>
+  <BrowserRouter>
+    <FoodContextProvider>
       <App />
-    </BrowserRouter>
-  </FoodContextProvider>
+    </FoodContextProvider>
+  </BrowserRouter>
 );

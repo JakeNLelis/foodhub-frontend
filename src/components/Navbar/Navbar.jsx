@@ -7,8 +7,6 @@ import './Navbar.css'
 
 function Navbar() {
   const [loading, setloading] = useState(false);
-
-  const navigate = useNavigate();
   
   const handleNavigation = (path) => {
     setloading(true);
@@ -19,7 +17,7 @@ function Navbar() {
     
   }
   
-  const {getCartCount} = useContext(FoodContext);
+  const {getCartCount, navigate} = useContext(FoodContext);
   
   return (
     <div>
