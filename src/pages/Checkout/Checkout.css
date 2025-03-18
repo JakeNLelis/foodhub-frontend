@@ -40,6 +40,7 @@
 
 .payment-option.selected {
   background-color: #d4024d;
+  color: #fff;
 }
 
 .payment-text {

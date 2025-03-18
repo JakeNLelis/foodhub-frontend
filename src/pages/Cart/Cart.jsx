@@ -27,7 +27,7 @@ function Cart() {
   }, [cartItems, products]);
 
   return (
-    <div>
+    <div className="cart-container">
       <div>
         <h2>Cart Items</h2>
       </div>
